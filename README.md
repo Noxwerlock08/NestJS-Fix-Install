@@ -35,7 +35,7 @@
 
 1. **Clonar el Repositorio**
 
-   Abre PowerShell y ejecuta el siguiente comando para clonar el repositorio:
+    Abre PowerShell y ejecuta el siguiente comando para clonar el repositorio:
 
     ```powershell
     git clone https://github.com/Noxwerlock08/NestJS-Fix-Install.git
@@ -47,12 +47,13 @@
    
 3. **Configurar la Política de Ejecución de PowerShell**
 
-Para permitir la ejecución de scripts, establece la política de ejecución a RemoteSigned para el usuario actual:
+    Para permitir la ejecución de scripts, establece la política de ejecución a RemoteSigned para el usuario actual:
 
-    ```powershell
+    ```
+    // powershell
      git clone https://github.com/Noxwerlock08/NestJS-Fix-Install.git
-
-Nota: Si encuentras restricciones, asegúrate de ejecutar PowerShell como Administrador.
+    ```
+    Nota: Si encuentras restricciones, asegúrate de ejecutar PowerShell como Administrador.
 
 ## Uso
 
