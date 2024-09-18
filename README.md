@@ -49,38 +49,38 @@
 
     Para permitir la ejecución de scripts, establece la política de ejecución a RemoteSigned para el usuario actual:
 
+    ```powershell
+     Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
     ```
-    // powershell
-     git clone https://github.com/Noxwerlock08/NestJS-Fix-Install.git
-    ```
-    Nota: Si encuentras restricciones, asegúrate de ejecutar PowerShell como Administrador.
+    > Nota: Si encuentras restricciones, asegúrate de ejecutar PowerShell como Administrador.
 
 ## Uso
 
-**Abrir PowerShell como Administrador**
+1. **Abrir PowerShell como Administrador**
 
-Haz clic derecho en el ícono de PowerShell y selecciona "Ejecutar como administrador".
+  Haz clic derecho en el ícono de PowerShell y selecciona "Ejecutar como administrador".
 
-**Ejecutar el Script**
+2. **Ejecutar el Script**
 
-Dentro del directorio del proyecto, ejecuta el script:
+  Dentro del directorio del proyecto, ejecuta el script:
 
-    ```powershell
-    ./Fix-Nestjs.ps1
+  ```powershell
+  ./Fix-Nestjs.ps1
+  ```
     
-**Seguir las Instrucciones**
+3. **Seguir las Instrucciones**
 
-El script realizará las siguientes acciones automáticamente:
+  El script realizará las siguientes acciones automáticamente:
 
-  Verificará si Node.js está instalado.
-  Limpiará la caché de npm.
-  Reinstalará el CLI de Nest.js globalmente.
-  Verificará y actualizará las variables de entorno si es necesario.
-  Confirmará que el CLI de Nest.js está funcionando correctamente.
+- **Verificará si Node.js está instalado.**
+- **Limpiará la caché de npm.**
+- **Reinstalará el CLI de Nest.js globalmente.**
+- **Verificará y actualizará las variables de entorno si es necesario.**
+- **Confirmará que el CLI de Nest.js está funcionando correctamente.**
   
-**Reiniciar la Terminal o el Sistema**
+4. **Reiniciar la Terminal o el Sistema**
 
-Después de la ejecución, cierra y vuelve a abrir PowerShell o reinicia tu computadora para asegurarte de que los cambios en las variables de entorno se apliquen correctamente.
+  Después de la ejecución, cierra y vuelve a abrir PowerShell o reinicia tu computadora para asegurarte de que los cambios en las variables de entorno se apliquen correctamente.
 
 ## Detalles del Script
 El script Fix-Nestjs.ps1 realiza las siguientes operaciones paso a paso:
